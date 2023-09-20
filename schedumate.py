@@ -8,13 +8,13 @@ from datetime import datetime, timedelta
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-DISCORD_WEBHOOK_URL = '//https://discord.com/api/webhooks/933785292102598678/BEbSgtbXk5XBK7UlkFkoGGJ8bbv18cXdFwwM_AUXelrhqQ_WmGIvXhrLCtRJLgWJfmx6'
+DISCORD_WEBHOOK_URL = 'discordwebhookhere'
 
 # Define your Telegram bot token here
-TELEGRAM_BOT_TOKEN = '6286862701:AAFrgd9_13Cl7itH3WiaInMnUbjFbvbbpgE'
+TELEGRAM_BOT_TOKEN = 'Telegram bot token here'
 
 # Define your Telegram chat ID here
-TELEGRAM_CHAT_ID = '1289941194'
+TELEGRAM_CHAT_ID = 'Telegram chat ID here'
 
 # Load your class data from a JSON file (update the file path)
 def load_class_data():
